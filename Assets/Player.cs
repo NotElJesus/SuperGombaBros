@@ -17,6 +17,9 @@ public class Player : MonoBehaviour
     public Transform groundCheck;
     public LayerMask groundLayer;
 
+    public Transform headCheck;
+    public LayerMask brickLayer;
+
     // Deal with the controls as well as the jumping of the character.
     void Update()
     {
@@ -36,10 +39,16 @@ public class Player : MonoBehaviour
         rigidBody.velocity = new Vector2(horizontal * speed, rigidBody.velocity.y);
     }
 
-    // Determine whether the player is touching the ground or not.
+    // Determine whether the player is touching the ground(or a brick) or not.
     private bool isGrounded()
     {
-        return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
+        return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer) || Physics2D.OverlapCircle(groundCheck.position, 0.2f, brickLayer);
+    }
+
+    // Determine whether the player colliders with a brick with its head.
+    private bool isCollidingWithBrick()
+    {
+        return Physics2D.OverlapCircle(headCheck.position, 0.2f, brickLayer);
     }
 
     // Flip the direction of the player depending on the which direction the player is moved.
@@ -54,4 +63,12 @@ public class Player : MonoBehaviour
         }
     }
 
+    // Determine whether the player has come into contact with a brick from the bottom.
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Brick" && isCollidingWithBrick())
+        {
+            Destroy(collision.gameObject);
+        }
+    }
 }
