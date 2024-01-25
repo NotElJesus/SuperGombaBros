@@ -1,4 +1,4 @@
-# SuperGomabBros
+# SuperGombaBros
 TL2 Platformer Game
 
 ## Table of Contents
