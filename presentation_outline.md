@@ -117,9 +117,6 @@ Ideas of things to think about while presenting:
 ## IX. Conclusion: 
    - A. **Summary and Closing**
        - 1. Recap key points from each role's presentation
-       - 2. Thank the audience for their attention and participation
-            
-## X. Thank You Slide: 
-   - A. Acknowledge Audience
+   - B. **Acknowledge Audience**
        - 1. Express gratitude to the audience
        - 2. Provide contact information for follow-up questions
