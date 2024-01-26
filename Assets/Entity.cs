@@ -7,6 +7,13 @@ public class Entity : MonoBehaviour
     public float horizontal;
     public Rigidbody2D rigidBody;
 
+    [SerializeField]
+    public float speed;
+
+    [SerializeField]
+    public float jumpingPower;
+
+
     public EntityState currentState;
     public EntityIdleState idleState = new EntityIdleState();
     public EntityDeadState deadState = new EntityDeadState();

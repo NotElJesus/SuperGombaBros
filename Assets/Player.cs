@@ -6,18 +6,11 @@ public class Player : Entity
 {
     private bool isFacingRight = true;
 
-    [SerializeField]
-    private float speed;
-
-    [SerializeField]
-    private float jumpingPower;
-
     public Transform groundCheck;
     public LayerMask groundLayer;
 
     public Transform headCheck;
     public LayerMask brickLayer;
-
 
     // Deal with the controls as well as the jumping of the character.
     void Update()
@@ -25,20 +18,9 @@ public class Player : Entity
         horizontal = Input.GetAxis("Horizontal");
         Debug.Log($"Horizontal: {horizontal}");
 
-
-
-        /*
-        if (Input.GetButtonDown("Jump") && isGrounded())
-        {
-            rigidBody.velocity = new Vector2(rigidBody.velocity.x, jumpingPower);
-        }
-        */
-        if (Input.GetButtonDown("Jump")){
-            if (currentState != jumpingState)
-            {
-                currentState = jumpingState;
-                currentState.EnterState(this);
-            }
+        if (Input.GetButtonDown("Jump") && currentState != jumpingState){
+            currentState = jumpingState;
+            currentState.EnterState(this);
         }
         flip();
         currentState.UpdateState(this);
@@ -47,7 +29,6 @@ public class Player : Entity
     // Move the player
     private void FixedUpdate()
     {
-        //rigidBody.velocity = new Vector2(horizontal * speed, rigidBody.velocity.y);
         currentState.FixedUpdateState(this);
     }
 
