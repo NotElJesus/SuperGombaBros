@@ -2,9 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class Player : Entity
 {
-    private float horizontal;
     private bool isFacingRight = true;
 
     [SerializeField]
@@ -13,30 +12,43 @@ public class Player : MonoBehaviour
     [SerializeField]
     private float jumpingPower;
 
-    public Rigidbody2D rigidBody;
     public Transform groundCheck;
     public LayerMask groundLayer;
 
     public Transform headCheck;
     public LayerMask brickLayer;
 
+
     // Deal with the controls as well as the jumping of the character.
     void Update()
     {
         horizontal = Input.GetAxis("Horizontal");
+        Debug.Log($"Horizontal: {horizontal}");
 
+
+
+        /*
         if (Input.GetButtonDown("Jump") && isGrounded())
         {
             rigidBody.velocity = new Vector2(rigidBody.velocity.x, jumpingPower);
         }
-
+        */
+        if (Input.GetButtonDown("Jump")){
+            if (currentState != jumpingState)
+            {
+                currentState = jumpingState;
+                currentState.EnterState(this);
+            }
+        }
         flip();
+        currentState.UpdateState(this);
     }
 
     // Move the player
     private void FixedUpdate()
     {
-        rigidBody.velocity = new Vector2(horizontal * speed, rigidBody.velocity.y);
+        //rigidBody.velocity = new Vector2(horizontal * speed, rigidBody.velocity.y);
+        currentState.FixedUpdateState(this);
     }
 
     // Determine whether the player is touching the ground(or a brick) or not.
@@ -70,5 +82,6 @@ public class Player : MonoBehaviour
         {
             Destroy(collision.gameObject);
         }
+        currentState.OnCollisionEnter(this);
     }
 }
