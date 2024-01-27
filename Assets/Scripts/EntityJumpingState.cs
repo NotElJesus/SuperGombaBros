@@ -6,7 +6,7 @@ using UnityEngine.TextCore.Text;
 
 public class EntityJumpingState : EntityState
 {
-    //private Animation anim;
+    //private Animation animator;
 
     public override void EnterState(Entity entity)
     {
@@ -15,9 +15,9 @@ public class EntityJumpingState : EntityState
         //anim = entity.GetComponent<Animation>();
         Debug.Log("Trying Animation Play");
         //anim.Play("MushrioJump_Clip");
-
+        //entity.anim.runtimeAnimatorController = entity.MushrioJump as RuntimeAnimatorController; //Man1
         Animator animator = entity.GetComponent<Animator>();
-        animator.runtimeAnimatorController = Resources.Load("MushrioJump.controller") as RuntimeAnimatorController;
+        animator.runtimeAnimatorController = entity.MushrioJump as RuntimeAnimatorController;
          
     }
     public override void UpdateState(Entity entity)

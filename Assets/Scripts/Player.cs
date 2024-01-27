@@ -14,6 +14,7 @@ public class Player : Entity
     public Transform headCheck;
     public LayerMask brickLayer;
 
+
     // Deal with the controls as well as the jumping of the character.
     void Update()
     {

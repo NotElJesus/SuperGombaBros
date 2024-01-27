@@ -13,6 +13,10 @@ public class Entity : MonoBehaviour
     [SerializeField]
     public float jumpingPower;
 
+    //public Animator anim;
+    public RuntimeAnimatorController MushrioJump;
+    public RuntimeAnimatorController MushrioWalkR;
+
 
     public EntityState currentState;
     public EntityIdleState idleState = new EntityIdleState();
