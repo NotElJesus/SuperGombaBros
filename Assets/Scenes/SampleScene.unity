@@ -278,15 +278,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6578533472302587914, guid: 6d3774d931dc80548a2656809374d188, type: 3}
       propertyPath: obstacleSpeed
-      value: 4
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6578533472302587914, guid: 6d3774d931dc80548a2656809374d188, type: 3}
+      propertyPath: obstacleLifetime
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 6578533472302587914, guid: 6d3774d931dc80548a2656809374d188, type: 3}
       propertyPath: maxObstacleSpawnTime
-      value: 17
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 6578533472302587914, guid: 6d3774d931dc80548a2656809374d188, type: 3}
       propertyPath: minObstacleSpawnTime
-      value: 7
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6578533472302587914, guid: 6d3774d931dc80548a2656809374d188, type: 3}
       propertyPath: timeUntilObstacleSpawn
@@ -623,12 +627,16 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6578533472302587914, guid: 6d3774d931dc80548a2656809374d188, type: 3}
+      propertyPath: obstacleLifetime
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6578533472302587914, guid: 6d3774d931dc80548a2656809374d188, type: 3}
       propertyPath: maxObstacleSpawnTime
       value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6578533472302587914, guid: 6d3774d931dc80548a2656809374d188, type: 3}
       propertyPath: minObstacleSpawnTime
-      value: 10
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8599211969034129012, guid: 6d3774d931dc80548a2656809374d188, type: 3}
       propertyPath: m_LocalPosition.x
@@ -789,7 +797,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0008392781, y: 0.16406544}
+  m_Offset: {x: -0.0008392781, y: 0.12605545}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: -0.032258064}
@@ -800,7 +808,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.16572824, y: 0.31362715}
+  m_Size: {x: 0.16572824, y: 0.23760717}
   m_EdgeRadius: 0
 --- !u!212 &386120649
 SpriteRenderer:
@@ -1876,6 +1884,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spawner
       objectReference: {fileID: 0}
+    - target: {fileID: 6578533472302587914, guid: 6d3774d931dc80548a2656809374d188, type: 3}
+      propertyPath: obstacleLifetime
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 8599211969034129012, guid: 6d3774d931dc80548a2656809374d188, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.263
@@ -2363,6 +2375,10 @@ PrefabInstance:
     - target: {fileID: 6578533472302587914, guid: 6d3774d931dc80548a2656809374d188, type: 3}
       propertyPath: obstacleSpeed
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6578533472302587914, guid: 6d3774d931dc80548a2656809374d188, type: 3}
+      propertyPath: obstacleLifetime
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 6578533472302587914, guid: 6d3774d931dc80548a2656809374d188, type: 3}
       propertyPath: maxObstacleSpawnTime
