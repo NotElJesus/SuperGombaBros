@@ -16,8 +16,10 @@ public class Player : Entity
     void Update()
     {
         horizontal = Input.GetAxis("Horizontal");
-        Debug.Log($"Horizontal: {horizontal}");
+        //Horizontal Debug Log. 
+        //Debug.Log($"Horizontal: {horizontal}");                           
 
+        
         if (Input.GetButtonDown("Jump") && currentState != jumpingState){
             currentState = jumpingState;
             currentState.EnterState(this);
@@ -32,6 +34,7 @@ public class Player : Entity
         currentState.FixedUpdateState(this);
     }
 
+    //TODO: Move to Entity base class and make generic with other world things. 
     // Determine whether the player is touching the ground(or a brick) or not.
     private bool isGrounded()
     {

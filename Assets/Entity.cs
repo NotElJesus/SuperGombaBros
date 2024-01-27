@@ -20,6 +20,10 @@ public class Entity : MonoBehaviour
     public EntityJumpingState jumpingState = new EntityJumpingState();
     public EntityRunState runState = new EntityRunState();
 
+    //public bool isGrounded()
+    //{
+    //   return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer) || Physics2D.OverlapCircle(groundCheck.position, 0.2f, brickLayer);
+    //}
     // Start is called before the first frame update
     //Start in idle state
     void Start()

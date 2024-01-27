@@ -8,7 +8,7 @@ public class EntityIdleState : EntityState
 
     public override void EnterState(Entity entity)
     {
-        Debug.Log("medle");
+        Debug.Log("Enter Idle State");
     }
 
     public override void UpdateState(Entity entity)
