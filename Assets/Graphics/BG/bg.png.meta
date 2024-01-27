@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
 guid: 07796980f27fb964d96e7b8617e0ad8b
+=======
+guid: c7010a1ac8bcd3a4e961f72e85b86fee
+>>>>>>> Stashed changes
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -124,8 +128,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
       spriteID: 8f41c6044f5a4ac45aa380f61b7c4cbb
       internalID: -522346188
+=======
+      spriteID: 936ee1ebcd270344f87304094bc3e119
+      internalID: 1565059542
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
@@ -145,8 +154,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
       spriteID: 7c22709654763514387aec30e9b106d2
       internalID: -502298593
+=======
+      spriteID: 687f19d1564f6834aba7b1b8602ef641
+      internalID: 1718135319
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
@@ -166,8 +180,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
       spriteID: 1a0a94ba1a3b3ca4382feb461825db95
       internalID: 528477330
+=======
+      spriteID: e2b3f89b14b80404cb9e49f0571fcb98
+      internalID: -854772258
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
@@ -187,8 +206,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
       spriteID: a1dbbfc4ca9f45f43883ff0fb810b6e2
       internalID: 1793400874
+=======
+      spriteID: 4d39bdc2d042a3c4b91863e6c72234b8
+      internalID: -127512534
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
@@ -204,10 +228,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+<<<<<<< Updated upstream
       bg_0: -522346188
       bg_1: -502298593
       bg_2: 528477330
       bg_3: 1793400874
+=======
+      bg_0: 1565059542
+      bg_1: 1718135319
+      bg_2: -854772258
+      bg_3: -127512534
+>>>>>>> Stashed changes
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

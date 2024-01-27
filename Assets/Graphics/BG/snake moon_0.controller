@@ -1,5 +1,30 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+<<<<<<< Updated upstream
+=======
+--- !u!1107 &-6633657304069085815
+AnimatorStateMachine:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Base Layer
+  m_ChildStates:
+  - serializedVersion: 1
+    m_State: {fileID: 6140272369443878521}
+    m_Position: {x: 200, y: 0, z: 0}
+  m_ChildStateMachines: []
+  m_AnyStateTransitions: []
+  m_EntryTransitions: []
+  m_StateMachineTransitions: {}
+  m_StateMachineBehaviours: []
+  m_AnyStatePosition: {x: 50, y: 20, z: 0}
+  m_EntryPosition: {x: 50, y: 120, z: 0}
+  m_ExitPosition: {x: 800, y: 120, z: 0}
+  m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
+  m_DefaultState: {fileID: 6140272369443878521}
+>>>>>>> Stashed changes
 --- !u!91 &9100000
 AnimatorController:
   m_ObjectHideFlags: 0
@@ -12,7 +37,11 @@ AnimatorController:
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
+<<<<<<< Updated upstream
     m_StateMachine: {fileID: 537118381456167014}
+=======
+    m_StateMachine: {fileID: -6633657304069085815}
+>>>>>>> Stashed changes
     m_Mask: {fileID: 0}
     m_Motions: []
     m_Behaviours: []
@@ -22,6 +51,7 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
+<<<<<<< Updated upstream
 --- !u!1107 &537118381456167014
 AnimatorStateMachine:
   serializedVersion: 6
@@ -45,6 +75,9 @@ AnimatorStateMachine:
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: 8655896501908405448}
 --- !u!1102 &8655896501908405448
+=======
+--- !u!1102 &6140272369443878521
+>>>>>>> Stashed changes
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1

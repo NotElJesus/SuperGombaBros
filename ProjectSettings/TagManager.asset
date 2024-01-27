@@ -39,6 +39,18 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: sky
+    uniqueID: 383350627
+    locked: 0
+  - name: moon
+    uniqueID: 2813355119
+    locked: 0
+  - name: mountain
+    uniqueID: 3905045169
+    locked: 0
+  - name: greens
+    uniqueID: 3476998863
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0

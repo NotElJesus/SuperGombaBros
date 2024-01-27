@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
 guid: 9a68826a077b9fc4cb2fd637790816bd
+=======
+guid: 5f1ebaeb87f3a47498d7b55e0e60b21d
+>>>>>>> Stashed changes
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -124,8 +128,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
       spriteID: 37d3211cb71a3d045bf3acbabec5836b
       internalID: 1661650334
+=======
+      spriteID: 2310af0c487d1114fa693b501df8892f
+      internalID: -1413144300
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
@@ -145,8 +154,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
       spriteID: dcab0c27f03e9174aa65b1ee8c2e4ee2
       internalID: -1279080708
+=======
+      spriteID: f996850c53e4f144fa9d16c89305b146
+      internalID: 1089526388
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
@@ -162,8 +176,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+<<<<<<< Updated upstream
       plats_0: 1661650334
       plats_1: -1279080708
+=======
+      plats_0: -1413144300
+      plats_1: 1089526388
+>>>>>>> Stashed changes
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
