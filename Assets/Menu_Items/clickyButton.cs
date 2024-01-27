@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class clickyButton : MonoBehaviour, IPointerUpHandler, IPointerDownHandler
 {
@@ -30,5 +31,9 @@ public class clickyButton : MonoBehaviour, IPointerUpHandler, IPointerDownHandle
         {
             playText.rectTransform.localPosition -= moveOffset;
         }
+    }
+
+    public void SwitchScene(string sceneName){
+        SceneManager.LoadScene(sceneName);
     }
 }

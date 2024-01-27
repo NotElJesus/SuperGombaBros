@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 357039276}
   - component: {fileID: 357039278}
   - component: {fileID: 357039277}
+  - component: {fileID: 357039279}
   m_Layer: 5
   m_Name: Title
   m_TagString: Untagged
@@ -257,6 +258,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 357039275}
   m_CullTransparentMesh: 1
+--- !u!95 &357039279
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 357039275}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3ff969a3cc837c545a40250d95e9bff8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &877911491
 GameObject:
   m_ObjectHideFlags: 0
@@ -519,7 +541,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1166009532}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1166009534}
+        m_TargetAssemblyTypeName: clickyButton, Assembly-CSharp
+        m_MethodName: SwitchScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: SampleScene
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1166009532
 MonoBehaviour:
   m_ObjectHideFlags: 0
