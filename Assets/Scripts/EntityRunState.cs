@@ -8,6 +8,7 @@ public class EntityRunState : EntityState
     public override void EnterState(Entity entity)
     {
         Debug.Log("Enter Run State");
+
         Debug.Log("Trying Run Animation");
         Animator animator = entity.GetComponent<Animator>();
         animator.runtimeAnimatorController = entity.MushrioWalkR as RuntimeAnimatorController;
@@ -15,7 +16,7 @@ public class EntityRunState : EntityState
 
     public override void UpdateState(Entity entity)
     {
-        if (entity.horizontal != 0)
+        if (entity.horizontal == 0f)
         {
             entity.currentState = entity.idleState;
             entity.currentState.EnterState(entity);
