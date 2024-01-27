@@ -34,6 +34,11 @@ public class clickyButton : MonoBehaviour, IPointerUpHandler, IPointerDownHandle
     }
 
     public void SwitchScene(string sceneName){
+        Time.timeScale=1f;
         SceneManager.LoadScene(sceneName);
     }
+    public void LeaveTheGame(){
+        Application.Quit();
+    }
+
 }
