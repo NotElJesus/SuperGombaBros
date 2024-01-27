@@ -1,23 +1,34 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.EventSystemsp;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using TMPro;
 
-public class NewBehaviourScript : MonoBehaviour, IPointerDownHandler, IPointerDownHandler
+public class clickyButton : MonoBehaviour, IPointerUpHandler, IPointerDownHandler
 {
     [SerializeField] private Image img;
     [SerializeField] private Sprite up, pressed;
+    [SerializeField] private TextMeshProUGUI playText;
+    [SerializeField] private Vector3 moveOffset;
     // [SerializeField] private AudioClip compressClip, uncompressClip;
     // [SerializeField] private AudioSource audioSource;
 
+
     public void OnPointerDown(PointerEventData eventData) {
-        img.Sprite = pressed;
+        img.sprite = pressed;
         // audioSource.PlayOneShot(compressClip);
+        if (playText != null) {
+            playText.rectTransform.localPosition += moveOffset;
+        }
     }
 
     public void OnPointerUp(PointerEventData eventData){
-        img.Sprite=up;
+        img.sprite=up;
         // audioSource.PlayOneShot(uncompressClip);
+        if (playText != null)
+        {
+            playText.rectTransform.localPosition -= moveOffset;
+        }
     }
 }
