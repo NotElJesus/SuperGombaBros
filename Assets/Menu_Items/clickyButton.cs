@@ -12,13 +12,13 @@ public class clickyButton : MonoBehaviour, IPointerUpHandler, IPointerDownHandle
     [SerializeField] private Sprite up, pressed;
     [SerializeField] private TextMeshProUGUI playText;
     [SerializeField] private Vector3 moveOffset;
-    // [SerializeField] private AudioClip compressClip, uncompressClip;
-    // [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip compressClip;//, uncompressClip; only want audio to play when the button is clicked "down"
+    [SerializeField] private AudioSource audioSource;
 
 
     public void OnPointerDown(PointerEventData eventData) {
         img.sprite = pressed;
-        // audioSource.PlayOneShot(compressClip);
+        audioSource.PlayOneShot(compressClip);
         if (playText != null) {
             playText.rectTransform.localPosition += moveOffset;
         }
@@ -26,7 +26,7 @@ public class clickyButton : MonoBehaviour, IPointerUpHandler, IPointerDownHandle
 
     public void OnPointerUp(PointerEventData eventData){
         img.sprite=up;
-        // audioSource.PlayOneShot(uncompressClip);
+        //audioSource.PlayOneShot(uncompressClip);
         if (playText != null)
         {
             playText.rectTransform.localPosition -= moveOffset;
