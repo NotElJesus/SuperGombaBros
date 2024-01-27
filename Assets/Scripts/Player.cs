@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//ScriptFolderPlayer
+
 public class Player : Entity
 {
     private bool isFacingRight = true;
@@ -19,7 +21,6 @@ public class Player : Entity
         //Horizontal Debug Log. 
         //Debug.Log($"Horizontal: {horizontal}");                           
 
-        
         if (Input.GetButtonDown("Jump") && currentState != jumpingState){
             currentState = jumpingState;
             currentState.EnterState(this);
