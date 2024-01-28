@@ -24,11 +24,16 @@ public class Health : MonoBehaviour
     // Call this function to apply damage and handle collisions with obstacles
     public void HandleCollisions(Collision2D collision)
     {
-        if (collision.transform.tag == "Obstacle" || collision.transform.tag == "Player")
+        if (collision.transform.tag == "Obstacle")
         {
             TakeDamage(10);
             Destroy(collision.gameObject); // Destroy the obstacle
             // Add any other logic you need, like pausing or handling the jump over the obstacle
+        }
+        if (collision.transform.tag == "FinalBoss") { 
+            if (currentHealth >= 20) { //and coins 
+                Destroy(collision.gameObject); 
+            }
         }
     }
 
