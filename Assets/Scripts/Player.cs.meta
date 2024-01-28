@@ -3,7 +3,15 @@ guid: d6515303b43ba43e6834f8ac2b4953c0
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - rigidBody: {instanceID: 0}
+  - MushrioJump: {instanceID: 0}
+  - MushrioWalkR: {instanceID: 0}
+  - MushrioIdle: {instanceID: 0}
+  - groundCheck: {instanceID: 0}
+  - headCheck: {instanceID: 0}
+  - audioSource: {instanceID: 0}
+  - audioClip: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
