@@ -19,8 +19,8 @@ public class Entity : MonoBehaviour
     public RuntimeAnimatorController MushrioIdle;
     public RuntimeAnimatorController MushrioDead;
 
-    public RuntimeAnimatorController MehrioIdle;
-    public RuntimeAnimatorController MehrioDead; 
+    // public RuntimeAnimatorController MehrioIdle;
+    // public RuntimeAnimatorController MehrioDead; 
 
     public EntityState currentState;
     public EntityIdleState idleState = new EntityIdleState();

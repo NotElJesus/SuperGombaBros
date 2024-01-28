@@ -9,7 +9,7 @@ public class FinalBossKill : MonoBehaviour
 {
     public Entity boss; // Reference to the EntityBoss script
 
-    public void HandleCollisions(Collision2D collision)
+    public void HandleFinalBoss(Collision2D collision)
     {
         if (collision.transform.tag == "Player")
         {
@@ -24,7 +24,7 @@ public class FinalBossKill : MonoBehaviour
             Animator animator = GetComponent<Animator>();
             if (animator != null)
             {
-                animator.runtimeAnimatorController = boss.MehrioDead as RuntimeAnimatorController;
+                animator.runtimeAnimatorController = boss.MushrioDead as RuntimeAnimatorController;
             }
 
             // Wait for 2.5 seconds before loading the "EndMenu" scene

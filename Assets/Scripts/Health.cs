@@ -32,20 +32,21 @@ public class Health : MonoBehaviour
             Destroy(collision.gameObject); // Destroy the obstacle
             // Add any other logic you need, like pausing or handling the jump over the obstacle
         }
-        if (collision.transform.tag == "Player")
+        if (collision.transform.tag == "FinalBoss")
         {
-            // Access the EntityBoss script to change the state to deadState
-            Entity boss = GetComponent<Entity>();
+            //Destroy(collision.gameObject); 
+            //Access the EntityBoss script to change the state to deadState
+            Entity boss = collision.gameObject.GetComponent<Entity>();
             if (boss != null)
             {
                 boss.currentState = boss.deadState;
             }
 
             // Additional logic if needed, e.g., play death animation, disable controls, etc.
-            Animator animator = GetComponent<Animator>();
+            Animator animator = collision.gameObject.GetComponent<Animator>();
             if (animator != null)
             {
-                animator.runtimeAnimatorController = boss.MehrioDead as RuntimeAnimatorController;
+                animator.runtimeAnimatorController = boss.MushrioDead as RuntimeAnimatorController;
             }
 
             // Wait for 2.5 seconds before loading the "EndMenu" scene
