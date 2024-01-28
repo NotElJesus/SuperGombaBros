@@ -7,9 +7,9 @@ public class Health : MonoBehaviour
 {
     public int maxHealth = 150;
     public int currentHealth;
-
     public HealthBar healthBar;
 
+    
     void Start()
     {
         currentHealth = maxHealth;
@@ -31,8 +31,12 @@ public class Health : MonoBehaviour
             // Add any other logic you need, like pausing or handling the jump over the obstacle
         }
         if (collision.transform.tag == "FinalBoss") { 
-            if (currentHealth >= 20) { //and coins 
+            if (currentHealth >= 20) { //and coins //kill FinalBoss
+                // currentState = MehrioDeadState; 
+                // currentState.EnterState(this); 
                 Destroy(collision.gameObject); 
+            } else { 
+                //kill Player 
             }
         }
     }
@@ -40,7 +44,8 @@ public class Health : MonoBehaviour
     void TakeDamage(int damage)
     {
 
-        if (currentHealth == 10) { 
+        if (currentHealth < 20) {
+            //currentState = EntityDeadState; will have to change state here 
             Destroy(gameObject); 
         }
         currentHealth -= damage;
