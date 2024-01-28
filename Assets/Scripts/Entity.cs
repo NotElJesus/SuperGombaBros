@@ -19,12 +19,18 @@ public class Entity : MonoBehaviour
     public RuntimeAnimatorController MushrioIdle;
     public RuntimeAnimatorController MushrioDead;
 
+    public RuntimeAnimatorController MehrioIdle;
+    public RuntimeAnimatorController MehrioDead; 
 
     public EntityState currentState;
     public EntityIdleState idleState = new EntityIdleState();
     public EntityDeadState deadState = new EntityDeadState();
     public EntityJumpingState jumpingState = new EntityJumpingState();
     public EntityRunState runState = new EntityRunState();
+
+    // public EntityRunState BossDeadState = new EntityDeadState();
+
+    // public EntityRunState BossIdleState = new EntityIdleState();
 
     //public bool isGrounded()
     //{
