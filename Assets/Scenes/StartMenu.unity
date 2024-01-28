@@ -182,6 +182,7 @@ MonoBehaviour:
   playText: {fileID: 2105857141}
   moveOffset: {x: 0, y: -40, z: 0}
   compressClip: {fileID: 8300000, guid: 083cc8e195b894ad7a06a0cc1d3c758c, type: 3}
+  uncompressClip: {fileID: 8300000, guid: 083cc8e195b894ad7a06a0cc1d3c758c, type: 3}
   audioSource: {fileID: 248815275}
 --- !u!114 &248815272
 MonoBehaviour:
@@ -858,6 +859,7 @@ MonoBehaviour:
   playText: {fileID: 1912168200}
   moveOffset: {x: 0, y: -40, z: 0}
   compressClip: {fileID: 8300000, guid: 083cc8e195b894ad7a06a0cc1d3c758c, type: 3}
+  uncompressClip: {fileID: 8300000, guid: 083cc8e195b894ad7a06a0cc1d3c758c, type: 3}
   audioSource: {fileID: 1166009535}
 --- !u!82 &1166009535
 AudioSource:

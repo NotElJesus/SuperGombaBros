@@ -14,9 +14,6 @@ public class Player : Entity
     public Transform headCheck;
     public LayerMask brickLayer;
 
-    [SerializeField] private AudioSource audioSource;
-    [SerializeField] private AudioClip audioClip;
-
 
     // Deal with the controls as well as the jumping of the character.
     void Update()
@@ -26,7 +23,6 @@ public class Player : Entity
         //Debug.Log($"Horizontal: {horizontal}");                           
 
         if (Input.GetButtonDown("Jump") && currentState != jumpingState){
-            audioSource.PlayOneShot(audioClip);
             currentState = jumpingState;
             currentState.EnterState(this);
         }
