@@ -18,6 +18,7 @@ public class EntityIdleState : EntityState
         //entity.transform.localScale += new Vector3(0.01f, 0, 0);
         if (entity.horizontal != 0)
         {
+            //Sets and runs the current state as entity.runState. (The running state)
             entity.currentState = entity.runState;
             entity.currentState.EnterState(entity);
         }
