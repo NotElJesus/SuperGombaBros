@@ -17,6 +17,7 @@ public class Entity : MonoBehaviour
     public RuntimeAnimatorController MushrioJump;
     public RuntimeAnimatorController MushrioWalkR;
     public RuntimeAnimatorController MushrioIdle;
+    public RuntimeAnimatorController MushrioDead;
 
 
     public EntityState currentState;
