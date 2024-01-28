@@ -867,6 +867,7 @@ MonoBehaviour:
   MushrioJump: {fileID: 9100000, guid: 1d1ba1cb756514249a865aed6ef519a7, type: 2}
   MushrioWalkR: {fileID: 9100000, guid: 83a205bdfabf42c48a11febcaaee3d3a, type: 2}
   MushrioIdle: {fileID: -5754294603801703793, guid: 804fa8bf8d3db91459ba317393b54e0d, type: 3}
+  MushrioDead: {fileID: -5355312510962882253, guid: 558af7b29a6ae8a48bca20f6ffa88fee, type: 3}
   groundCheck: {fileID: 1505168419}
   groundLayer:
     serializedVersion: 2
@@ -1026,7 +1027,7 @@ Animator:
   m_GameObject: {fileID: 386120645}
   m_Enabled: 1
   m_Avatar: {fileID: 46447773}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: -5355312510962882253, guid: 558af7b29a6ae8a48bca20f6ffa88fee, type: 3}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
