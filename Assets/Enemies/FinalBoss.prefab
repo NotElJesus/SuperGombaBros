@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3740518425071124900}
   - component: {fileID: 122794209381078017}
   - component: {fileID: -5970188793845881954}
+  - component: {fileID: -758692450500112109}
   m_Layer: 0
   m_Name: FinalBoss
   m_TagString: FinalBoss
@@ -188,7 +189,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6515382959444390575}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fccfd50f0e2c5344aae7fd25345599cf, type: 3}
   m_Name: 
@@ -196,3 +197,15 @@ MonoBehaviour:
   bossHealth: 100
   hitsToDestroy: 3
   playerHealth: {fileID: 0}
+--- !u!114 &-758692450500112109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6515382959444390575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3622c43109994846bf0ce2fe6d7870e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

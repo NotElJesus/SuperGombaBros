@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 18e5ca9b299e74034969d82dc365ffa3
+guid: d4fcc123821b44b21b4277f372f156bc
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -119,9 +119,9 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: MehrioDead (1)_Frame_0
+  - name: MehrioDead_Frame_0
     originalName: 
-    pivot: {x: 1.0666667, y: 0}
+    pivot: {x: 1.6, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 103
       width: 15
       height: 20
-    spriteID: 7900df8b8a30b884fb54ef97b620cab2
+    spriteID: 0c1f0631d398df34d9c0d21517a4fcd8
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -139,7 +139,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 53, y: 103}
-  - name: MehrioDead (1)_Frame_1
+  - name: MehrioDead_Frame_1
     originalName: 
     pivot: {x: 1.0666667, y: 0}
     alignment: 9
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 60
       width: 15
       height: 18
-    spriteID: 8acdc935b92589940909bfffaf765f68
+    spriteID: 5cfca97e62d2e5946b5b2f0c0c9295b3
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -159,7 +159,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 77, y: 60}
-  - name: MehrioDead (1)_Frame_2
+  - name: MehrioDead_Frame_2
     originalName: 
     pivot: {x: 1.0666667, y: 0}
     alignment: 9
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 86
       width: 15
       height: 18
-    spriteID: 8895c9cba9567924bb39045d4a4c036a
+    spriteID: df8ff6085f7260a40931ce38a505e78c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -179,7 +179,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 77, y: 86}
-  - name: MehrioDead (1)_Frame_3
+  - name: MehrioDead_Frame_3
     originalName: 
     pivot: {x: 1.0666667, y: 0}
     alignment: 9
@@ -190,7 +190,7 @@ ScriptedImporter:
       y: 4
       width: 15
       height: 18
-    spriteID: 1b24e3f289f66524d9022f740eb867fb
+    spriteID: ac7e0365dc852f84c9360fc7653b489a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -199,7 +199,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 101, y: 4}
-  - name: MehrioDead (1)_Frame_4
+  - name: MehrioDead_Frame_4
     originalName: 
     pivot: {x: 1, y: 0}
     alignment: 9
@@ -210,7 +210,7 @@ ScriptedImporter:
       y: 30
       width: 16
       height: 15
-    spriteID: 99b10002f12db95419b93d74c4ac86b1
+    spriteID: 80b6ba82b48a1dc4a9c8408ff7fd550d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -219,7 +219,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 101, y: 30}
-  - name: MehrioDead (1)_Frame_5
+  - name: MehrioDead_Frame_5
     originalName: 
     pivot: {x: 1, y: 0}
     alignment: 9
@@ -230,7 +230,7 @@ ScriptedImporter:
       y: 35
       width: 16
       height: 17
-    spriteID: 2b846403073dbfa4f9501cb9333f1f25
+    spriteID: ea64293c3a90f204a80123b06241de4f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -239,7 +239,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 77, y: 35}
-  - name: MehrioDead (1)_Frame_6
+  - name: MehrioDead_Frame_6
     originalName: 
     pivot: {x: 1, y: 0}
     alignment: 9
@@ -250,7 +250,7 @@ ScriptedImporter:
       y: 4
       width: 16
       height: 23
-    spriteID: a49e28064605ae24882761168ba35a4f
+    spriteID: 9941eec3f6278a84aa9d60fc298af30b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -259,7 +259,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 77, y: 4}
-  - name: MehrioDead (1)_Frame_7
+  - name: MehrioDead_Frame_7
     originalName: 
     pivot: {x: 1, y: 0}
     alignment: 9
@@ -270,7 +270,7 @@ ScriptedImporter:
       y: 38
       width: 16
       height: 25
-    spriteID: 56427803ad9eb8441b0f02370ac65299
+    spriteID: d31d6cc8bce9ae74f9ab377af6e8fad0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -279,7 +279,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 53, y: 38}
-  - name: MehrioDead (1)_Frame_8
+  - name: MehrioDead_Frame_8
     originalName: 
     pivot: {x: 1, y: 0}
     alignment: 9
@@ -290,7 +290,7 @@ ScriptedImporter:
       y: 40
       width: 16
       height: 29
-    spriteID: d333f973598ef8d4c9d4a4c409ba6a96
+    spriteID: f12f2afb5562fb3429ec4397d0e01f70
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -299,7 +299,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 40}
-  - name: MehrioDead (1)_Frame_9
+  - name: MehrioDead_Frame_9
     originalName: 
     pivot: {x: 1, y: 0}
     alignment: 9
@@ -310,7 +310,7 @@ ScriptedImporter:
       y: 77
       width: 16
       height: 29
-    spriteID: c65a37bf7b5e6df4295e71268be6cea8
+    spriteID: 99675ee559527154dae74bd7bd14f22d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -319,7 +319,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 77}
-  - name: MehrioDead (1)_Frame_10
+  - name: MehrioDead_Frame_10
     originalName: 
     pivot: {x: 1, y: 0}
     alignment: 9
@@ -330,7 +330,7 @@ ScriptedImporter:
       y: 40
       width: 16
       height: 27
-    spriteID: e7ddac9202367814a8c4cc0ebb6de64f
+    spriteID: 21611923c8fc4d146aacef690227a5d6
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -339,7 +339,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 29, y: 40}
-  - name: MehrioDead (1)_Frame_11
+  - name: MehrioDead_Frame_11
     originalName: 
     pivot: {x: 1, y: 0}
     alignment: 9
@@ -350,7 +350,7 @@ ScriptedImporter:
       y: 4
       width: 16
       height: 26
-    spriteID: 76e4f13dbfb8a3a44925d4abaeac091c
+    spriteID: ef240dd16ca92474987fda5ee01ef7e8
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -359,7 +359,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 53, y: 4}
-  - name: MehrioDead (1)_Frame_12
+  - name: MehrioDead_Frame_12
     originalName: 
     pivot: {x: 1, y: 0}
     alignment: 9
@@ -370,7 +370,7 @@ ScriptedImporter:
       y: 71
       width: 16
       height: 24
-    spriteID: a0eef82164e4d6640a89d2df07267e2c
+    spriteID: 39941e53ec2963f4989dfc012b1f39d3
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -379,7 +379,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 53, y: 71}
-  - name: MehrioDead (1)_Frame_13
+  - name: MehrioDead_Frame_13
     originalName: 
     pivot: {x: 1, y: 0}
     alignment: 9
@@ -390,7 +390,7 @@ ScriptedImporter:
       y: 75
       width: 16
       height: 27
-    spriteID: 8230cd28ea4ad8c4d95ba28440363c1c
+    spriteID: bece205e9513ae94c800ef9c7f961b56
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -399,7 +399,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 29, y: 75}
-  - name: MehrioDead (1)_Frame_14
+  - name: MehrioDead_Frame_14
     originalName: 
     pivot: {x: 1, y: 0}
     alignment: 9
@@ -410,7 +410,7 @@ ScriptedImporter:
       y: 4
       width: 16
       height: 28
-    spriteID: a07c3433197f7c34a8fe98681432efd4
+    spriteID: 3dd7e2b55d5f62c4bbb7126b703de823
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -419,7 +419,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 29, y: 4}
-  - name: MehrioDead (1)_Frame_15
+  - name: MehrioDead_Frame_15
     originalName: 
     pivot: {x: 0.9411765, y: 0}
     alignment: 9
@@ -430,7 +430,7 @@ ScriptedImporter:
       y: 4
       width: 17
       height: 28
-    spriteID: d7beaa420ee4ba0498a5e574e01507dc
+    spriteID: 12c910e779ad4264cb7344361f085299
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -442,140 +442,140 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1933404970
-    name: MehrioDead (1)
+    guid: 679766488
+    name: MehrioDead
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: MehrioDead (1)_Frame_0
+    - name: MehrioDead_Frame_0
       frameIndex: 0
       cellRect:
         x: 0
         y: 0
         width: 15
         height: 20
-      spriteId: 7900df8b8a30b884fb54ef97b620cab2
-    - name: MehrioDead (1)_Frame_1
+      spriteId: 0c1f0631d398df34d9c0d21517a4fcd8
+    - name: MehrioDead_Frame_1
       frameIndex: 1
       cellRect:
         x: 0
         y: 0
         width: 15
         height: 18
-      spriteId: 8acdc935b92589940909bfffaf765f68
-    - name: MehrioDead (1)_Frame_2
+      spriteId: 5cfca97e62d2e5946b5b2f0c0c9295b3
+    - name: MehrioDead_Frame_2
       frameIndex: 2
       cellRect:
         x: 0
         y: 0
         width: 15
         height: 18
-      spriteId: 8895c9cba9567924bb39045d4a4c036a
-    - name: MehrioDead (1)_Frame_3
+      spriteId: df8ff6085f7260a40931ce38a505e78c
+    - name: MehrioDead_Frame_3
       frameIndex: 3
       cellRect:
         x: 0
         y: 0
         width: 15
         height: 18
-      spriteId: 1b24e3f289f66524d9022f740eb867fb
-    - name: MehrioDead (1)_Frame_4
+      spriteId: ac7e0365dc852f84c9360fc7653b489a
+    - name: MehrioDead_Frame_4
       frameIndex: 4
       cellRect:
         x: 0
         y: 0
         width: 16
         height: 15
-      spriteId: 99b10002f12db95419b93d74c4ac86b1
-    - name: MehrioDead (1)_Frame_5
+      spriteId: 80b6ba82b48a1dc4a9c8408ff7fd550d
+    - name: MehrioDead_Frame_5
       frameIndex: 5
       cellRect:
         x: 0
         y: 0
         width: 16
         height: 17
-      spriteId: 2b846403073dbfa4f9501cb9333f1f25
-    - name: MehrioDead (1)_Frame_6
+      spriteId: ea64293c3a90f204a80123b06241de4f
+    - name: MehrioDead_Frame_6
       frameIndex: 6
       cellRect:
         x: 0
         y: 0
         width: 16
         height: 23
-      spriteId: a49e28064605ae24882761168ba35a4f
-    - name: MehrioDead (1)_Frame_7
+      spriteId: 9941eec3f6278a84aa9d60fc298af30b
+    - name: MehrioDead_Frame_7
       frameIndex: 7
       cellRect:
         x: 0
         y: 0
         width: 16
         height: 25
-      spriteId: 56427803ad9eb8441b0f02370ac65299
-    - name: MehrioDead (1)_Frame_8
+      spriteId: d31d6cc8bce9ae74f9ab377af6e8fad0
+    - name: MehrioDead_Frame_8
       frameIndex: 8
       cellRect:
         x: 0
         y: 0
         width: 16
         height: 29
-      spriteId: d333f973598ef8d4c9d4a4c409ba6a96
-    - name: MehrioDead (1)_Frame_9
+      spriteId: f12f2afb5562fb3429ec4397d0e01f70
+    - name: MehrioDead_Frame_9
       frameIndex: 9
       cellRect:
         x: 0
         y: 0
         width: 16
         height: 29
-      spriteId: c65a37bf7b5e6df4295e71268be6cea8
-    - name: MehrioDead (1)_Frame_10
+      spriteId: 99675ee559527154dae74bd7bd14f22d
+    - name: MehrioDead_Frame_10
       frameIndex: 10
       cellRect:
         x: 0
         y: 0
         width: 16
         height: 27
-      spriteId: e7ddac9202367814a8c4cc0ebb6de64f
-    - name: MehrioDead (1)_Frame_11
+      spriteId: 21611923c8fc4d146aacef690227a5d6
+    - name: MehrioDead_Frame_11
       frameIndex: 11
       cellRect:
         x: 0
         y: 0
         width: 16
         height: 26
-      spriteId: 76e4f13dbfb8a3a44925d4abaeac091c
-    - name: MehrioDead (1)_Frame_12
+      spriteId: ef240dd16ca92474987fda5ee01ef7e8
+    - name: MehrioDead_Frame_12
       frameIndex: 12
       cellRect:
         x: 0
         y: 0
         width: 16
         height: 24
-      spriteId: a0eef82164e4d6640a89d2df07267e2c
-    - name: MehrioDead (1)_Frame_13
+      spriteId: 39941e53ec2963f4989dfc012b1f39d3
+    - name: MehrioDead_Frame_13
       frameIndex: 13
       cellRect:
         x: 0
         y: 0
         width: 16
         height: 27
-      spriteId: 8230cd28ea4ad8c4d95ba28440363c1c
-    - name: MehrioDead (1)_Frame_14
+      spriteId: bece205e9513ae94c800ef9c7f961b56
+    - name: MehrioDead_Frame_14
       frameIndex: 14
       cellRect:
         x: 0
         y: 0
         width: 16
         height: 28
-      spriteId: a07c3433197f7c34a8fe98681432efd4
-    - name: MehrioDead (1)_Frame_15
+      spriteId: 3dd7e2b55d5f62c4bbb7126b703de823
+    - name: MehrioDead_Frame_15
       frameIndex: 15
       cellRect:
         x: 0
         y: 0
         width: 17
         height: 28
-      spriteId: d7beaa420ee4ba0498a5e574e01507dc
+      spriteId: 12c910e779ad4264cb7344361f085299
     linkedCells: []
     parentIndex: -1
   platformSettings: []
