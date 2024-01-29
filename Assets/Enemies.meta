@@ -1,5 +1,6 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
 guid: c296ee478a9eefc42a68727150137ba5
 =======
 <<<<<<<< HEAD:Assets/Enemies.meta
@@ -8,6 +9,9 @@ guid: 6b5685b2b58014d2ebf744c56d0ab55f
 guid: 07a1e737c7c304c3093d512d0764b84a
 >>>>>>>> origin:Assets/Audio.meta
 >>>>>>> 0fc9f70581de044e8fab1f2766005397447cfabf
+=======
+guid: c296ee478a9eefc42a68727150137ba5
+>>>>>>> 9ee34a020974de25398d6927532ddfb24556e619
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

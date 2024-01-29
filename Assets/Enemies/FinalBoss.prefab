@@ -15,9 +15,13 @@ GameObject:
   - component: {fileID: 122794209381078017}
   - component: {fileID: -5970188793845881954}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: -758692450500112109}
 =======
 >>>>>>> 0fc9f70581de044e8fab1f2766005397447cfabf
+=======
+  - component: {fileID: -758692450500112109}
+>>>>>>> 9ee34a020974de25398d6927532ddfb24556e619
   m_Layer: 0
   m_Name: FinalBoss
   m_TagString: FinalBoss
@@ -193,10 +197,14 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6515382959444390575}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Enabled: 0
 =======
   m_Enabled: 1
 >>>>>>> 0fc9f70581de044e8fab1f2766005397447cfabf
+=======
+  m_Enabled: 0
+>>>>>>> 9ee34a020974de25398d6927532ddfb24556e619
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fccfd50f0e2c5344aae7fd25345599cf, type: 3}
   m_Name: 
@@ -205,6 +213,9 @@ MonoBehaviour:
   hitsToDestroy: 3
   playerHealth: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9ee34a020974de25398d6927532ddfb24556e619
 --- !u!114 &-758692450500112109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -217,5 +228,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3622c43109994846bf0ce2fe6d7870e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
 =======
 >>>>>>> 0fc9f70581de044e8fab1f2766005397447cfabf
+=======
+>>>>>>> 9ee34a020974de25398d6927532ddfb24556e619
