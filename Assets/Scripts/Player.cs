@@ -30,7 +30,6 @@ public class Player : Entity
     // Move the player
     private void FixedUpdate()
     {
-        rigidBody.velocity = new Vector2(horizontal * speed, rigidBody.velocity.y);
         currentState.FixedUpdateState(this);
     }
 
