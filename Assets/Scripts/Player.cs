@@ -25,7 +25,7 @@ public class Player : MonoBehaviour
     {
         horizontal = Input.GetAxis("Horizontal");
 
-        if (Input.GetButtonDown("Jump") && isGrounded())
+        if (Input.GetButtonDown("Jump") && isGround())
         {
             rigidBody.velocity = new Vector2(rigidBody.velocity.x, jumpingPower);
         }
@@ -40,7 +40,7 @@ public class Player : MonoBehaviour
     }
 
     // Determine whether the player is touching the ground(or a brick) or not.
-    private bool isGrounded()
+    private bool isGround()
     {
         return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer) || Physics2D.OverlapCircle(groundCheck.position, 0.2f, brickLayer);
     }
