@@ -12,13 +12,13 @@ public class clickyButton : MonoBehaviour, IPointerUpHandler, IPointerDownHandle
     [SerializeField] private Sprite up, pressed;
     [SerializeField] private TextMeshProUGUI playText;
     [SerializeField] private Vector3 moveOffset;
-    [SerializeField] private AudioClip compressClip; // don't need uncompress clip to play sound
-    [SerializeField] private AudioSource audioSource;
+    //[SerializeField] private AudioClip compressClip; // don't need uncompress clip to play sound
+    //[SerializeField] private AudioSource audioSource;
 
 
     public void OnPointerDown(PointerEventData eventData) {
         img.sprite = pressed;
-        audioSource.PlayOneShot(compressClip);
+        //audioSource.PlayOneShot(compressClip);
         if (playText != null) {
             playText.rectTransform.localPosition += moveOffset;
         }
