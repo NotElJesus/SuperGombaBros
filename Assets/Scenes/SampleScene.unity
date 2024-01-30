@@ -3178,9 +3178,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1439477921}
   - component: {fileID: 1439477920}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Coins
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3197,7 +3197,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ffb7402620d6204b8b852e4a5813553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  circlePrefab: {fileID: 6630372146877381582, guid: 19d8694272af95a4dad6727712be3475, type: 3}
+  circlePrefab: {fileID: 6515382959444390575, guid: d39411063061ebb47bfe66bfb0a4fb6c, type: 3}
   numberOfCircles: 6
   minCircleSpawnTime: 3
   maxCircleSpawnTime: 5
@@ -3209,12 +3209,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1439477919}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.827957, y: -6.6888885, z: -0.11270508}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -10.637813, y: -12.537227, z: -0.81964815}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1907044945}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1502369657 stripped
 Transform:
@@ -4054,6 +4054,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1439477921}
   - {fileID: 1034266364}
   - {fileID: 1593100576}
   - {fileID: 843423725}
@@ -5065,4 +5066,3 @@ SceneRoots:
   - {fileID: 1907044945}
   - {fileID: 432188023}
   - {fileID: 1359293324}
-  - {fileID: 1439477921}

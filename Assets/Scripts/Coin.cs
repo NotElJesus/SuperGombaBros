@@ -53,4 +53,8 @@ public class SpawnAndVanishCircles : MonoBehaviour
         yield return new WaitForSeconds(lifetime);
         Destroy(obj);
     }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Debug.Log("Collison with Coin");
+    }
 }
