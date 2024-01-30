@@ -21,6 +21,7 @@ public class Player : Entity
         {
             currentState = jumpingState;
             currentState.EnterState(this);
+            
         }
 
         flip();
