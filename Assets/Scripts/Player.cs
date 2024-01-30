@@ -17,7 +17,7 @@ public class Player : Entity
     {
         horizontal = Input.GetAxis("Horizontal");
 
-        if (Input.GetButtonDown("Jump") && currentState != jumpingState)
+        if (Input.GetButtonDown("Jump") && currentState != jumpingState && isGrounded())
         {
             currentState = jumpingState;
             currentState.EnterState(this);
