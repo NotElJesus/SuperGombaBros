@@ -1,60 +1,25 @@
 using System.Collections;
+using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
-public class SpawnAndVanishCircles : MonoBehaviour
+public class CoinHealth : MonoBehaviour
 {
-    // Define Prefab
-    [SerializeField] public GameObject circlePrefab;
-    public int numberOfCircles = 3;
-    public float minCircleSpawnTime = 0.5f;
-    public float maxCircleSpawnTime = 0.8f;
+    public int maxHealth = 150;
+    public int currentHealth;
+    public CoinHealthBar coinbar;
+    public Entity entity; // Reference to the Entity script
 
-    public void Start()
+    void Start()
     {
-        // Create and Update circles randomly
-        StartCoroutine(SpawnAndVanishLoop());
+        currentHealth = maxHealth;
+        coinbar.SetMaxHealth();
     }
 
-    IEnumerator SpawnAndVanishLoop()
+    void Update()
     {
-        while (true)
-        {
-            yield return new WaitForSeconds(Random.Range(minCircleSpawnTime, maxCircleSpawnTime));
-            // Create number of Circles
-            for (int i = 0; i < numberOfCircles; i++)
-            {
-                SpawnAndVanishCircle();
-            }
-        }
-    }
-    // Create and Delete circles
-    public void SpawnAndVanishCircle()
-    {
-        Vector3 spawnPosition = GetRandomSpawnPosition();
-        GameObject spawnedCircle = Instantiate(circlePrefab, spawnPosition, Quaternion.identity);
-
-        // Set a random lifetime for the spawned circle
-        float lifetime = Random.Range(2f, 6f);
-
-        StartCoroutine(DestroyAfterTime(spawnedCircle, lifetime));
-    }
-    // Get Random Position
-    private Vector3 GetRandomSpawnPosition()
-    {
-        float spawnX = Random.Range(-5f, 5f);
-        float spawnY = Random.Range(-2f, 2f);
-
-        return new Vector3(spawnX, spawnY, 0f);
-    }
-
-    // Destroy Circles
-    IEnumerator DestroyAfterTime(GameObject obj, float lifetime)
-    {
-        yield return new WaitForSeconds(lifetime);
-        Destroy(obj);
-    }
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        Debug.Log("Collison with Coin");
+        // You can handle other player input or events here if needed
     }
 }
