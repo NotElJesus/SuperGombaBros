@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Brick
+  - Obstacle
+  - FinalBoss
+  - Coin
+  - 'Help: Control'
+  - Health and Coin Status
   layers:
   - Default
   - TransparentFX
