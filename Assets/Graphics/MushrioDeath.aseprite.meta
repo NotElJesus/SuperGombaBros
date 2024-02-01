@@ -1,0 +1,836 @@
+fileFormatVersion: 2
+guid: 16054443c69260d4cb4161d36d4afd5e
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: MushrioDeath_Frame_0
+    originalName: 
+    pivot: {x: 0, y: -0.032258064}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 35
+      y: 206
+      width: 16
+      height: 31
+    spriteID: f77520ba0eaf0c0488f96683711c5cc8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 35, y: 206}
+  - name: MushrioDeath_Frame_1
+    originalName: 
+    pivot: {x: 0, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 66
+      y: 4
+      width: 16
+      height: 29
+    spriteID: 8b4015210849ec6409d74479816b9a9a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 66, y: 4}
+  - name: MushrioDeath_Frame_2
+    originalName: 
+    pivot: {x: 0, y: -0.037037037}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 66
+      y: 41
+      width: 16
+      height: 27
+    spriteID: ca6031f3ed9f0d3478bb693060786a66
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 66, y: 41}
+  - name: MushrioDeath_Frame_3
+    originalName: 
+    pivot: {x: 0, y: -0.041666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 90
+      y: 87
+      width: 16
+      height: 24
+    spriteID: bbe47356fd2040a4ab450a98b52b26e2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 90, y: 87}
+  - name: MushrioDeath_Frame_4
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 90
+      y: 143
+      width: 16
+      height: 22
+    spriteID: 8293c98e871aae44482b86746d47f730
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 90, y: 143}
+  - name: MushrioDeath_Frame_5
+    originalName: 
+    pivot: {x: 0.33333334, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 90
+      y: 4
+      width: 21
+      height: 22
+    spriteID: 8a2c9c741dabe7e44bf1e1ee0c9e16a5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 90, y: 4}
+  - name: MushrioDeath_Frame_6
+    originalName: 
+    pivot: {x: 0.47619048, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 90
+      y: 60
+      width: 21
+      height: 19
+    spriteID: bcda5809da7222d4b84806eeb6542805
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 90, y: 60}
+  - name: MushrioDeath_Frame_7
+    originalName: 
+    pivot: {x: 0.6086957, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 90
+      y: 119
+      width: 23
+      height: 16
+    spriteID: ff04662c4bfffda449f4fbccdd809ce1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 90, y: 119}
+  - name: MushrioDeath_Frame_8
+    originalName: 
+    pivot: {x: 0.6956522, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 90
+      y: 173
+      width: 23
+      height: 15
+    spriteID: 3a68d3f527a53d44ebb4233afe6a6bba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 90, y: 173}
+  - name: MushrioDeath_Frame_9
+    originalName: 
+    pivot: {x: 0.6956522, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 90
+      y: 196
+      width: 23
+      height: 14
+    spriteID: b49064b80d763c54fb82e4106bc0f1b9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 90, y: 196}
+  - name: MushrioDeath_Frame_10
+    originalName: 
+    pivot: {x: 0.6956522, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 90
+      y: 34
+      width: 23
+      height: 18
+    spriteID: c5cbab10a765f8548a72678981058d75
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 90, y: 34}
+  - name: MushrioDeath_Frame_11
+    originalName: 
+    pivot: {x: 0.6956522, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 35
+      y: 142
+      width: 23
+      height: 24
+    spriteID: ecb65d528aa38554bb5b62192897f1d1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 35, y: 142}
+  - name: MushrioDeath_Frame_12
+    originalName: 
+    pivot: {x: 0.6956522, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 35
+      y: 74
+      width: 23
+      height: 26
+    spriteID: 9a415a0bf00df7b4985cd1fd21efd683
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 35, y: 74}
+  - name: MushrioDeath_Frame_13
+    originalName: 
+    pivot: {x: 0.6956522, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 35
+      y: 4
+      width: 23
+      height: 27
+    spriteID: c5a9fe79868b1b946890a8f5011f781d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 35, y: 4}
+  - name: MushrioDeath_Frame_14
+    originalName: 
+    pivot: {x: 0.6956522, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 23
+      height: 29
+    spriteID: affc02a74b80de74fb4ccb8cfa66f524
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: MushrioDeath_Frame_15
+    originalName: 
+    pivot: {x: 0.6956522, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 152
+      width: 23
+      height: 28
+    spriteID: 3462f218be9b54347a1413530ac036e1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 152}
+  - name: MushrioDeath_Frame_16
+    originalName: 
+    pivot: {x: 0.6956522, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 41
+      width: 23
+      height: 29
+    spriteID: 8c11aad4b5373d0438117b814443a524
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 41}
+  - name: MushrioDeath_Frame_17
+    originalName: 
+    pivot: {x: 0.6956522, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 188
+      width: 23
+      height: 28
+    spriteID: f64a5af5a5436c84b9333a4c9dfcc305
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 188}
+  - name: MushrioDeath_Frame_18
+    originalName: 
+    pivot: {x: 0.6956522, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 35
+      y: 39
+      width: 23
+      height: 27
+    spriteID: 2e6333911e0047a47b9497d6fc2bf238
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 35, y: 39}
+  - name: MushrioDeath_Frame_19
+    originalName: 
+    pivot: {x: 0.6956522, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 35
+      y: 174
+      width: 23
+      height: 24
+    spriteID: 383415075f2028b4eacd9fdee9f04d1d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 35, y: 174}
+  - name: MushrioDeath_Frame_20
+    originalName: 
+    pivot: {x: 0.6956522, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 35
+      y: 108
+      width: 23
+      height: 26
+    spriteID: c9daed4f1ab5181439d3c1e19406ea1c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 35, y: 108}
+  - name: MushrioDeath_Frame_21
+    originalName: 
+    pivot: {x: 0.6956522, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 224
+      width: 23
+      height: 28
+    spriteID: 226382031d20ee348852e88215bc819b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 224}
+  - name: MushrioDeath_Frame_22
+    originalName: 
+    pivot: {x: 0.6956522, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 78
+      width: 23
+      height: 29
+    spriteID: f0a3dd01c15867b47a439021aea496fb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 78}
+  - name: MushrioDeath_Frame_23
+    originalName: 
+    pivot: {x: 0.6956522, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 115
+      width: 23
+      height: 29
+    spriteID: 6f0ba75ba24908d4abbc281656785a6e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 115}
+  - name: MushrioDeath_Frame_24
+    originalName: 
+    pivot: {x: 0.6956522, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 90
+      y: 218
+      width: 23
+      height: 11
+    spriteID: 8ac9b4ba250f15442ba92e8b64e4ca97
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 90, y: 218}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -2058548057
+    name: MushrioDeath
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: MushrioDeath_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 16
+        y: 1
+        width: 16
+        height: 31
+      spriteId: f77520ba0eaf0c0488f96683711c5cc8
+    - name: MushrioDeath_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 16
+        y: 1
+        width: 16
+        height: 29
+      spriteId: 8b4015210849ec6409d74479816b9a9a
+    - name: MushrioDeath_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 16
+        y: 1
+        width: 16
+        height: 27
+      spriteId: ca6031f3ed9f0d3478bb693060786a66
+    - name: MushrioDeath_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 16
+        y: 1
+        width: 16
+        height: 24
+      spriteId: bbe47356fd2040a4ab450a98b52b26e2
+    - name: MushrioDeath_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 16
+        y: 0
+        width: 16
+        height: 22
+      spriteId: 8293c98e871aae44482b86746d47f730
+    - name: MushrioDeath_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 9
+        y: 0
+        width: 21
+        height: 22
+      spriteId: 8a2c9c741dabe7e44bf1e1ee0c9e16a5
+    - name: MushrioDeath_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 6
+        y: 0
+        width: 21
+        height: 19
+      spriteId: bcda5809da7222d4b84806eeb6542805
+    - name: MushrioDeath_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 2
+        y: 0
+        width: 23
+        height: 16
+      spriteId: ff04662c4bfffda449f4fbccdd809ce1
+    - name: MushrioDeath_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 0
+        y: 0
+        width: 23
+        height: 15
+      spriteId: 3a68d3f527a53d44ebb4233afe6a6bba
+    - name: MushrioDeath_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 0
+        y: 0
+        width: 23
+        height: 14
+      spriteId: b49064b80d763c54fb82e4106bc0f1b9
+    - name: MushrioDeath_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 0
+        y: 0
+        width: 23
+        height: 18
+      spriteId: c5cbab10a765f8548a72678981058d75
+    - name: MushrioDeath_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 0
+        y: 0
+        width: 23
+        height: 24
+      spriteId: ecb65d528aa38554bb5b62192897f1d1
+    - name: MushrioDeath_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 0
+        y: 0
+        width: 23
+        height: 26
+      spriteId: 9a415a0bf00df7b4985cd1fd21efd683
+    - name: MushrioDeath_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 0
+        y: 0
+        width: 23
+        height: 27
+      spriteId: c5a9fe79868b1b946890a8f5011f781d
+    - name: MushrioDeath_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 0
+        y: 0
+        width: 23
+        height: 29
+      spriteId: affc02a74b80de74fb4ccb8cfa66f524
+    - name: MushrioDeath_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 0
+        y: 0
+        width: 23
+        height: 28
+      spriteId: 3462f218be9b54347a1413530ac036e1
+    - name: MushrioDeath_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 0
+        y: 0
+        width: 23
+        height: 29
+      spriteId: 8c11aad4b5373d0438117b814443a524
+    - name: MushrioDeath_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 0
+        y: 0
+        width: 23
+        height: 28
+      spriteId: f64a5af5a5436c84b9333a4c9dfcc305
+    - name: MushrioDeath_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 0
+        y: 0
+        width: 23
+        height: 27
+      spriteId: 2e6333911e0047a47b9497d6fc2bf238
+    - name: MushrioDeath_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 0
+        y: 0
+        width: 23
+        height: 24
+      spriteId: 383415075f2028b4eacd9fdee9f04d1d
+    - name: MushrioDeath_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 0
+        y: 0
+        width: 23
+        height: 26
+      spriteId: c9daed4f1ab5181439d3c1e19406ea1c
+    - name: MushrioDeath_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 0
+        y: 0
+        width: 23
+        height: 28
+      spriteId: 226382031d20ee348852e88215bc819b
+    - name: MushrioDeath_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 0
+        y: 0
+        width: 23
+        height: 29
+      spriteId: f0a3dd01c15867b47a439021aea496fb
+    - name: MushrioDeath_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 0
+        y: 0
+        width: 23
+        height: 29
+      spriteId: 6f0ba75ba24908d4abbc281656785a6e
+    - name: MushrioDeath_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 0
+        y: 0
+        width: 23
+        height: 11
+      spriteId: 8ac9b4ba250f15442ba92e8b64e4ca97
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 32, y: 32}

@@ -2,41 +2,38 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class Player : Entity
 {
-    private float horizontal;
     private bool isFacingRight = true;
 
-    [SerializeField]
-    private float speed;
-
-    [SerializeField]
-    private float jumpingPower;
-
-    public Rigidbody2D rigidBody;
     public Transform groundCheck;
     public LayerMask groundLayer;
 
     public Transform headCheck;
     public LayerMask brickLayer;
 
+    //Entity Scripts: Entity.cs, EntityState.cs, EntityIdleState.cs
+    //EntityDeadState.cs, EntityJumpingState.cs, EntityRunState.cs 
+
     // Deal with the controls as well as the jumping of the character.
     void Update()
     {
         horizontal = Input.GetAxis("Horizontal");
 
-        if (Input.GetButtonDown("Jump") && isGround())
+        if (Input.GetButtonDown("Jump") && isGround() && currentState != jumpingState)
         {
-            rigidBody.velocity = new Vector2(rigidBody.velocity.x, jumpingPower);
+            currentState = jumpingState;
+            currentState.EnterState(this);
         }
 
         flip();
+        currentState.UpdateState(this);
     }
 
     // Move the player
-    private void FixedUpdate()
+    private void FixedUpdate() //physics update
     {
-        rigidBody.velocity = new Vector2(horizontal * speed, rigidBody.velocity.y);
+        currentState.FixedUpdateState(this);
     }
 
     // Determine whether the player is touching the ground(or a brick) or not.
@@ -46,10 +43,7 @@ public class Player : MonoBehaviour
     }
 
     // Determine whether the player colliders with a brick with its head.
-    private bool isCollidingWithBrick()
-    {
-        return Physics2D.OverlapCircle(headCheck.position, 0.2f, brickLayer);
-    }
+
 
     // Flip the direction of the player depending on the which direction the player is moved.
     private void flip()
@@ -66,9 +60,6 @@ public class Player : MonoBehaviour
     // Determine whether the player has come into contact with a brick from the bottom.
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Brick" && isCollidingWithBrick())
-        {
-            Destroy(collision.gameObject);
-        }
+        currentState.OnCollisionEnter(this);
     }
 }
