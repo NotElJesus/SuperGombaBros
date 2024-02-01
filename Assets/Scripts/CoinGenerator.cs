@@ -34,15 +34,15 @@ public class SpawnAndVanishCircles : MonoBehaviour
         GameObject spawnedCircle = Instantiate(circlePrefab, spawnPosition, Quaternion.identity);
 
         // Set a random lifetime for the spawned circle
-        float lifetime = Random.Range(2f, 3f);
+        float lifetime = Random.Range(0.5f, 1f);
 
         StartCoroutine(DestroyAfterTime(spawnedCircle, lifetime));
     }
     // Get Random Position
     private Vector3 GetRandomSpawnPosition()
     {
-        float spawnX = Random.Range(-5f, 5f);
-        float spawnY = Random.Range(-2f, 2f);
+        float spawnX = Random.Range(-10f, 10f);
+        float spawnY = Random.Range(-10f, 10f);
 
         return new Vector3(spawnX, spawnY, 0f);
     }

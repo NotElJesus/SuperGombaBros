@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -10,6 +11,7 @@ public class Health : MonoBehaviour
     public int maxHealth = 150;
     public int currentHealth;
     public HealthBar healthBar;
+    public TextMeshProUGUI healthText;
     public Entity entity; // Reference to the Entity script
 
     void Start()
@@ -92,6 +94,19 @@ public class Health : MonoBehaviour
             // Load the game over scene
             SceneManager.LoadScene("EndMenu"); // Replace "GameOverSceneName" with the actual name of your game over scene
         }
+    public void ShowHealth()
+    {
+        healthText.text = "Health : " + currentHealth;
+        // Start coroutine to reset the text after 2 seconds
+        StartCoroutine(ResetTextAfterDelay(2f));
+    }
+
+    IEnumerator ResetTextAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        // Reset the text value
+        healthText.text = "";
+    }
 }
 
 
