@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 //ScriptFolderPlayer
@@ -7,10 +8,12 @@ using UnityEngine;
 public class Player : Entity
 {
     private bool isFacingRight = true;
-
+    public CoinHealthBar coinbar;
+    public Health health;
+    public TextMeshProUGUI helpbtn;
     public Transform groundCheck;
     public LayerMask groundLayer;
-
+    private Health playerHealth;
     public Transform headCheck;
     public LayerMask brickLayer;
 
@@ -32,6 +35,9 @@ public class Player : Entity
         }
         flip();
         currentState.UpdateState(this);
+        ShowControls();
+        ShowCoin();
+        ShowHealth();
     }
 
     // Move the player
@@ -73,5 +79,40 @@ public class Player : Entity
             Destroy(collision.gameObject);
         }
         currentState.OnCollisionEnter(this);
+    }
+    // Help Canvas
+    public void ShowCoin()
+    {
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            coinbar.ShowHealth();
+        }
+    }
+    public void ShowControls()
+    {
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            Debug.Log("Help Needed");
+            Debug.Log(helpbtn.text);
+            helpbtn.text = "Controls: A,D or Left, Right for Moving, Space for Jump";
+            StartCoroutine(ResetTextAfterDelay(2f));
+        }
+    }
+
+    public void ShowHealth()
+    {
+
+        if (Input.GetKeyDown(KeyCode.H))
+        {
+            health.ShowHealth();
+        }
+    }
+
+    IEnumerator ResetTextAfterDelay(float delay)
+    {
+        Debug.Log("Resetting the Text");
+        yield return new WaitForSeconds(delay);
+        // Reset the text value
+        helpbtn.text = "";
     }
 }
