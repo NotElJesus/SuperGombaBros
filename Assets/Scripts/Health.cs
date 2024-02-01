@@ -1,4 +1,4 @@
-using System.Collections;
+ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using Unity.VisualScripting;
@@ -51,8 +51,8 @@ public class Health : MonoBehaviour
                 animator.runtimeAnimatorController = boss.MushrioDead as RuntimeAnimatorController;
             }
 
-            // Wait for 2.5 seconds before loading the "EndMenu" scene
-            StartCoroutine(LoadGameOverSceneAfterDelay(2.5f));
+            // Wait for 1.5 seconds before loading the "EndMenu" scene
+            StartCoroutine(LoadGameOverSceneAfterDelay(1.5f));
         }
     }
 
@@ -94,6 +94,9 @@ public class Health : MonoBehaviour
             // Load the game over scene
             SceneManager.LoadScene("EndMenu"); // Replace "GameOverSceneName" with the actual name of your game over scene
         }
+<<<<<<< HEAD
+}
+=======
     public void ShowHealth()
     {
         healthText.text = "Health : " + currentHealth;
@@ -171,3 +174,4 @@ public class Health : MonoBehaviour
 //     }
 // }
 
+>>>>>>> 7ed0227f132ea551c44d4c82193f62292ad2789b
