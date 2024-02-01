@@ -444,9 +444,9 @@ MonoBehaviour:
   MushrioWalkR: {fileID: 9100000, guid: bb50f6f81a1cf814e8b04c29741b90d1, type: 2}
   MushrioIdle: {fileID: 9100000, guid: bb50f6f81a1cf814e8b04c29741b90d1, type: 2}
   MushrioDead: {fileID: -2891570453663131875, guid: a6e747235f4602f42a63e957f98f9ef2, type: 3}
-  coinbar: {fileID: 578880127}
+  coinbar: {fileID: 0}
   health: {fileID: 386120655}
-  helpbtn: {fileID: 16220229}
+  helpbtn: {fileID: 0}
   groundCheck: {fileID: 1505168419}
   groundLayer:
     serializedVersion: 2
@@ -771,9 +771,9 @@ MonoBehaviour:
   MushrioWalkR: {fileID: 9100000, guid: 83a205bdfabf42c48a11febcaaee3d3a, type: 2}
   MushrioIdle: {fileID: -5754294603801703793, guid: 804fa8bf8d3db91459ba317393b54e0d, type: 3}
   MushrioDead: {fileID: -5355312510962882253, guid: 558af7b29a6ae8a48bca20f6ffa88fee, type: 3}
-  coinbar: {fileID: 578880127}
+  coinbar: {fileID: 0}
   health: {fileID: 386120655}
-  helpbtn: {fileID: 16220229}
+  helpbtn: {fileID: 0}
   groundCheck: {fileID: 1505168419}
   groundLayer:
     serializedVersion: 2
@@ -1081,7 +1081,7 @@ MonoBehaviour:
   maxHealth: 150
   currentHealth: 0
   healthBar: {fileID: 398103131}
-  healthText: {fileID: 882036561}
+  healthText: {fileID: 0}
   entity: {fileID: 386120646}
 --- !u!114 &386120656
 MonoBehaviour:
@@ -1097,7 +1097,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 150
   currentHealth: 0
-  coinbar: {fileID: 578880127}
+  coinbar: {fileID: 0}
   entity: {fileID: 386120646}
 --- !u!114 &386120657
 MonoBehaviour:
@@ -1111,7 +1111,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12a3a8c865359f94a8a4db80a485524f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinbar: {fileID: 578880127}
+  coinbar: {fileID: 0}
 --- !u!1 &398103130 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6753650245437393512, guid: d6d0a5eb617a9564bbcf5415315a5559, type: 3}
@@ -1767,11 +1767,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5646677096493575672, guid: d6d0a5eb617a9564bbcf5415315a5559, type: 3}
       propertyPath: m_PresetInfoIsWorld
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6753650245437393512, guid: d6d0a5eb617a9564bbcf5415315a5559, type: 3}
       propertyPath: m_Name
       value: CoinBar
+      objectReference: {fileID: 0}
+    - target: {fileID: 6753650245437393512, guid: d6d0a5eb617a9564bbcf5415315a5559, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7127240587633231986, guid: d6d0a5eb617a9564bbcf5415315a5559, type: 3}
       propertyPath: m_AdditionalShaderChannelsFlag
@@ -1787,11 +1791,11 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 64bb5d281e0c9d844af433baeb4e3494, type: 3}
     - target: {fileID: 8251920295021284914, guid: d6d0a5eb617a9564bbcf5415315a5559, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 8251920295021284914, guid: d6d0a5eb617a9564bbcf5415315a5559, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9054958247144572304, guid: d6d0a5eb617a9564bbcf5415315a5559, type: 3}
       propertyPath: m_Pivot.x
@@ -3792,7 +3796,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1439477921
 Transform:
   m_ObjectHideFlags: 0
