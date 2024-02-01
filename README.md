@@ -81,4 +81,4 @@ Updating the code will require a new build. Follow these steps if Unity is not a
 
 ## Presentation videos:
 
-1. Day 1: https://vandalsuidaho-my.sharepoint.com/:f:/r/personal/kark5714_vandals_uidaho_edu/Documents/tl2video?csf=1&web=1&e=iRyko4
+1. Day 1: https://vandalsuidaho-my.sharepoint.com/:f:/g/personal/kark5714_vandals_uidaho_edu/EvwfgQrVIZ5Po6BNlzKUuZgB7lT_iohw_4PjIy4k2fVw9Q?e=547M0N
