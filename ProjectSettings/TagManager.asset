@@ -8,6 +8,8 @@ TagManager:
   - Obstacle
   - FinalBoss
   - Coin
+  - 'Help: Control'
+  - Health and Coin Status
   layers:
   - Default
   - TransparentFX
