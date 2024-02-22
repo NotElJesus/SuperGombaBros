@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class clickyButton : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
@@ -13,6 +14,7 @@ public class clickyButton : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
     // [SerializeField] private AudioSource audioSource;
     [SerializeField] private TextMeshProUGUI playText;
     [SerializeField] private Vector3 moveOffset;
+
 
     public void OnPointerDown(PointerEventData eventData){
         img.sprite = pressed;
@@ -27,6 +29,14 @@ public class clickyButton : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
         if(playText!=null){
             playText.rectTransform.localPosition -= moveOffset;
         }
+    }
+
+    public void SwitchScene(string sceneName) {
+        SceneManager.LoadScene(sceneName);
+    }
+
+    public void LeaveTheGame(){
+        Application.Quit();
     }
 
 }
