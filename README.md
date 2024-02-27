@@ -78,3 +78,7 @@ Updating the code will require a new build. Follow these steps if Unity is not a
 6. Follow additional prompts based on selected components and click “Install”.
    - Installation may take some time.
 7. After installation, Unity will be available on your computer.
+
+## Presentation videos:
+
+1. Day 1: https://vandalsuidaho-my.sharepoint.com/:f:/g/personal/kark5714_vandals_uidaho_edu/EvwfgQrVIZ5Po6BNlzKUuZgB7lT_iohw_4PjIy4k2fVw9Q?e=547M0N

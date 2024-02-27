@@ -16,7 +16,7 @@ public class PlayerHitsCoin : MonoBehaviour
             audioSource.Play(); // 2nd step
             coins+= 10;
             Debug.Log("Coin Hit");
-            coinbar.SetHealth(coins);
+            coinbar.UpdateHealth(coins);
             Destroy(other.gameObject);
         }
     }
