@@ -42,8 +42,14 @@ TagManager:
   - name: Sky
     uniqueID: 1824795977
     locked: 0
+  - name: Moon
+    uniqueID: 2855137293
+    locked: 0
   - name: Mountain
     uniqueID: 893724307
+    locked: 0
+  - name: mush
+    uniqueID: 544534081
     locked: 0
   - name: Default
     uniqueID: 0
